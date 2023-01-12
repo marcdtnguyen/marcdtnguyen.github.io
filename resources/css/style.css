@@ -47,19 +47,19 @@ nav li {
   font-size: 2vw;
 }
 
-a {
+li a {
   color: seashell;
   text-decoration: none;
   position: relative;
 }
 
-a:hover {
+li a:hover {
   bottom: 1.5px;
   font-weight: 900;
   text-decoration: underline;
 }
 
-a:active {
+li a:active {
   color: #b9a3ae;
 }
 
@@ -143,7 +143,27 @@ span {
 
 footer .h-margin {
   padding-bottom: 10px;
+  font-weight: bold;
 }
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a:visited{
+  color: black;
+}
+
+footer a:active{
+  color: black;
+}
+
+
 
 /* index */
 
@@ -152,8 +172,10 @@ footer .h-margin {
   border-radius: 50%;
 }
 
-.aside {
+.intro {
   width: 70%;
+  margin: 40px auto;
+  padding: 40px;
   background-color: seashell;
 }
 

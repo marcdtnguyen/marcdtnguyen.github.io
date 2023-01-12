@@ -1,167 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Marc Nguyen Portfolio - Home</title>
-    <link rel="stylesheet" href="./resources/css/websystems.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <header>
-      <nav>
+
+<head>
+  <title>Marc Nguyen Portfolio - Home</title>
+  <link rel="stylesheet" href="./resources/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="flex-even">
+        <li>
+          <a href="#tech">TECHNOLOGIES</a>
+        </li>
+        <li>
+          <a href="#proj">PROJECTS</a>
+        </li>
+        <li>
+          <a href="#cont">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="trim">
+        <div class="bannerflex">
+          <img id="dp" src="./resources/dp.png" alt="A picture of me" />
+          <div class="title">
+            <h1>MARC NGUYEN</h1>
+            <h2>SOFTWARE ENGINEER</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="tech" ></div>
+    <div class="intro">
+        A graduating Software Engineering student looking to apply current skills accumulated from various collaborative
+        and personal projects.
+    </div>
+    <section class="text v-padding">
+      <div class="center h-margin">
+        <h2>TECHNOLOGIES</h2>
         <ul class="flex-even">
-          <li>
-            <a href="./index.html">HOME</a>
-          </li>
-          <li>
-            <a href="./past.html">PAST</a>
-          </li>
-          <li>
-            <a href="./future.html">FUTURE</a>
-          </li>
-          <li>
-            <a href="./comments.html">COMMENTS</a>
-          </li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>React</li>
         </ul>
-      </nav>
-    </header>
+        <div id="proj" ></div>
+        <div class="division"></div>
 
-    <main>
-      <section class="banner">
-        <div class="trim">
-          <div class="bannerflex">
-            <img id="dp" src="./resources/dp.png" alt="A picture of me" />
-            <div class="title">
-              <h1>MARC NGUYEN</h1>
-              <h2>SOFTWARE ENGINEER</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="aside v-padding">
-        <aside class="h-margin">
-          A static HTML/CSS website for Websystems assignment. Due to the nature
-          of the project's requirements, the site contains elements of a
-          portfolio for future conveniences.<br /><br />
-
-          A 2nd year Software Engineering student seeking an internship to
-          further deepen technical understanding and apply current skills
-          gathered from various projects at UTS and his time at Coder Academy.
-        </aside>
-      </div>
-
-      <section class="text v-padding">
-        <div class="center h-margin">
-          <h2>TECH STACK</h2>
-          <ul class="flex-even">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Ruby</li>
-          </ul>
-
-          <div class="division"></div>
-
-          <h2>PROJECTS</h2>
-          <div class="overflow">
-            <table>
-              <thead>
-                <tr>
-                  <th scope="col">
-                    Project
-                  </th>
-                  <th scope="col">
-                    Stack
-                  </th>
-                  <th scope="col">
-                    Description
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <h4>Portfolio</h4>
-                  </td>
-                  <td>
-                    <p>HTML | CSS | JavaScript</p>
-                  </td>
-                  <td>
-                    <p>
-                      Dragon Ball Z (Anime) - Krillin themed portfolio extensive
-                      uses of hover and light up animations dropdown navigation
-                      bar through JavaScript
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h4>Sotodo - Terminal Application</h4>
-                  </td>
-                  <td>
-                    <p>Ruby</p>
-                  </td>
-                  <td>
-                    <p>
-                      A sorting terminal application that sorts created tasks
-                      through terminal inputs by their set due date. It inlcudes
-                      a run time deletion function and finally outputs tasks in
-                      a formatted table
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h4>BlogHub - Hackathon</h4>
-                  </td>
-                  <td>
-                    <p>Ruby on Rails</p>
-                  </td>
-                  <td>
-                    <p>
-                      A blog application with restricted CRUD functions
-                      depending on authorised users. Created blogs are attached
-                      to their corresponding user as well as their comments on
-                      another user's blog.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h4>Heartline - Health Tracker</h4>
-                  </td>
-                  <td>
-                    <p>React</p>
-                  </td>
-                  <td>
-                    <p>
-                      A web-based health tracker that saves calorie and water
-                      intake into the user account. The application then outputs
-                      the user's current state of health as well as the
-                      remaining intake to complete their goal.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="trim h-margin">
-        <h2>CONTACTS</h2>
-
-        <div class="flex-even">
-          <p><span>Email</span> | john.doe@gmail.com</p>
-          <p><span>Mobile</span> | +## ### ### ###</p>
-          <p><span>GitHub</span> | github.com/john_doe</p>
-          <p><span>LinkedIn</span> | john-doe-#########</p>
+        <h2>PROJECTS</h2>
+        <div class="overflow">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">
+                  Project
+                </th>
+                <th scope="col">
+                  Stack
+                </th>
+                <th scope="col">
+                  Description
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <h4>Portfolio</h4>
+                </td>
+                <td>
+                  <p>HTML | CSS | JavaScript</p>
+                </td>
+                <td>
+                  <p>
+                    Dragon Ball Z (Anime) - Krillin themed portfolio extensive
+                    uses of hover and light up animations dropdown navigation
+                    bar through JavaScript
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Sotodo - Terminal Application</h4>
+                </td>
+                <td>
+                  <p>Ruby</p>
+                </td>
+                <td>
+                  <p>
+                    A sorting terminal application that sorts created tasks
+                    through terminal inputs by their set due date. It inlcudes
+                    a run time deletion function and finally outputs tasks in
+                    a formatted table
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>BlogHub - Hackathon</h4>
+                </td>
+                <td>
+                  <p>Ruby on Rails</p>
+                </td>
+                <td>
+                  <p>
+                    A blog application with restricted CRUD functions
+                    depending on authorised users. Created blogs are attached
+                    to their corresponding user as well as their comments on
+                    another user's blog.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h4>Heartline - Health Tracker</h4>
+                </td>
+                <td>
+                  <p>React</p>
+                </td>
+                <td>
+                  <p>
+                    A web-based health tracker that saves calorie and water
+                    intake into the user account. The application then outputs
+                    the user's current state of health as well as the
+                    remaining intake to complete their goal.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <footer>
+    <div class="trim h-margin">
+      <h2 id="cont">CONTACTS</h2>
+
+      <div class="flex-even">
+        <p><span>GitHub</span> | <a href="https://github.com/marcdtnguyen">github.com/marcdtnguyen</a></p>
+        <p><span>LinkedIn</span> | <a href="https://www.linkedin.com/in/marc-nguyen-8543651a6/">linkedin.com/in/marc-nguyen-8543651a6</a> </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
